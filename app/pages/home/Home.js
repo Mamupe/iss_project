@@ -6,17 +6,16 @@ export const Home = () => {
     cleanPage(app);
     app.innerHTML = 
     `
-    <button type="button">change</button>
+   
     <div class="home">
     
     
-    <img src="public/pictures/gifpro.gif" alt="pro"/>
-   
+    <img id="gif" src="public/pictures/gifpro.gif" alt="ini"/>
+    <button type="button" id="on-off">on/off</button>
     </div>
     
     `;
 };
-
 
 
 

@@ -4,7 +4,7 @@
       "id": 1,
       "issname": "Ronarid",
       "realname": "Ronaldo",
-      "team": "Brasil",
+      
       "isspicture": "public/pictures/Ronarid.jpg",
       "realpicture": "public/pictures/Ronaldo.jpg"
     },
@@ -13,7 +13,7 @@
       "id": 2,
       "issname": "Ziderm",
       "realname": "Zidane",
-      "team": "Francia",
+      
       "isspicture": "public/pictures/ziderm.jpg",
       "realpicture": "public/pictures/zidane.jpg"
     },
@@ -22,7 +22,7 @@
       "id": 3,
       "issname": "Roberto Larcos",
       "realname": "Roberto Carlos",
-      "team": "Brasil",
+     
       "isspicture": "public/pictures/R_larcos.jpg",
       "realpicture": "public/pictures/roberto carlos.jpg"
     },
@@ -31,7 +31,7 @@
       "id": 4,
       "issname": "Roal",
       "realname": "Raúl",
-      "team": "Eapaña",
+      
       "isspicture": "public/pictures/Raul.jpg",
       "realpicture": "public/pictures/Roal.jpg"
     },
@@ -40,7 +40,7 @@
       "id": 5,
       "issname": "Von Mestelroum",
       "realname": "Van Nistelroy",
-      "team": "Holanda",
+      
       "isspicture": "public/pictures/Von_mis.jpg",
       "realpicture": "public/pictures/van_nis.jpg"
     },
@@ -49,7 +49,7 @@
       "id": 6,
       "issname": "Batustita",
       "realname": "Batistuta",
-      "team": "Argentina",
+      
       "isspicture": "public/pictures/Batustita.jpg",
       "realpicture": "public/pictures/Batistuta.jpg"
     },
@@ -58,7 +58,7 @@
         "id": 7,
         "issname": "Simeoni",
         "realname": "Simeone",
-        "team": "Argentina",
+        
         "isspicture": "public/pictures/simeoni.jpg",
         "realpicture": "public/pictures/simeone.jpg"
       },
@@ -67,7 +67,7 @@
         "id": 8,
         "issname": "Hierri",
         "realname": "Hierro",
-        "team": "España",
+        
         "isspicture": "public/pictures/hierri.jpg",
         "realpicture": "public/pictures/Hierro.jpg"
       },
@@ -76,7 +76,7 @@
         "id": 9,
         "issname": "Malodini",
         "realname": "Maldini",
-        "team": "Italia",
+        
         "isspicture": "public/pictures/Malodini.jpg",
         "realpicture": "public/pictures/Maldini.jpg"
       },
@@ -85,7 +85,7 @@
         "id": 10,
         "issname": "Naldoriño",
         "realname": "Ronaldinho",
-        "team": "Brasil",
+        
         "isspicture": "public/pictures/naldorinho.jpg",
         "realpicture": "public/pictures/Ronaldinho.jpg"
       }

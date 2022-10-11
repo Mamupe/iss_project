@@ -6,7 +6,7 @@ export const Nav = () => `
             <a href="#" id="homelink">Home</a>
         </li>
         <li>
-            <a href="#" id="nameslink">Names</a>
+            <a href="#" id="playerslink">Players</a>
         </li>
         <li>
             <a href="#" id="teamslink">Teams</a>

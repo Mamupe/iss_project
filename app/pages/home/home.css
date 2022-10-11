@@ -9,7 +9,7 @@
     width: 19vw;
     position: relative;
     left: 506px;
-    top: 11px;
+    top: 32px;
     width: 598px;
     height: 350px;
   }
@@ -20,3 +20,11 @@
     background-size: cover;
   }
 
+  button{
+   position: relative;
+   left: 770px;
+   top: 33px;
+   display: flex;
+   width: 3rem;
+   height: 2rem;
+  }
