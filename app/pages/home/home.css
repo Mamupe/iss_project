@@ -1,0 +1,22 @@
+.home {
+    display: flex;
+    flex-direction: column;
+  
+    min-height: 90vh;
+  }
+  
+  .home > img {
+    width: 19vw;
+    position: relative;
+    left: 506px;
+    top: 11px;
+    width: 598px;
+    height: 350px;
+  }
+
+
+
+  .home > div {
+    background-size: cover;
+  }
+
