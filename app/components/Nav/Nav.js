@@ -5,11 +5,9 @@ export const Nav = () => `
         <li>
             <a href="#" id="homelink">Home</a>
         </li>
+      
         <li>
-            <a href="#" id="playerslink">Players</a>
-        </li>
-        <li>
-            <a href="#" id="teamslink">Teams</a>
+            <a href="#" id="jugadoreslink">Jugadores</a>
         </li>
 
     </ul>
