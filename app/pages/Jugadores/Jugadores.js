@@ -43,7 +43,7 @@ app.innerHTML += `
 
     getJugadores();
 
-
+/* 
 const realplayerContainer = document.querySelector(".realplayer")
 const input = document.querySelector("input");
 const jugadoresFiltrados = (word) => {
@@ -58,6 +58,22 @@ const jugadoresFiltrados = (word) => {
     }
     return filterPlayer
 };
-input.addEventListener("input",(ev)=> jugadoresFiltrados(input.value))
+input.addEventListener("input",(ev)=> jugadoresFiltrados(input.value)) */
     
+const issplayerContainer = document.querySelector(".issplayer")
+const input1 = document.querySelector("input");
+const jugadoresFiltrados1 = (word) => {
+    const filterPlayer1 = jugadorSelec.filter((player1)=>{
+        return player1.issname.toLowerCase().includes(word.toLowerCase())
+    });
+    cleanPage(issplayerContainer);
+    for (const player1 of filterPlayer1) {
+        issplayerContainer.innerHTML += `
+        <img src="${player1.isspicture}"/>
+        `
+    }
+    return filterPlayer1
+};
+input1.addEventListener("input",(ev)=> jugadoresFiltrados1(input1.value))
+
 }
