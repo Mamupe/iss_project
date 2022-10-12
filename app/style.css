@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Mina:wght@400;700&family=Silkscreen&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -12,6 +14,11 @@
   li {
     list-style-type: none;
   }
+@font-face{
+font-family: 'Mina', sans-serif;
+font-family: 'Silkscreen', cursive;
+}
+
 
   #app{
     background-image: url(public/pictures/gameroom_1.png);

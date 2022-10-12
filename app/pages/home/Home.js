@@ -10,9 +10,10 @@ export const Home = () => {
 
     <div id="rc" class="home" >
     <img id="gif" src="public/pictures/gifpro.gif" alt="ini"/>
-     <button class="boton">on/off</button>
+     
     </div>
     
+    <button class="boton">on/off</button>
     `;
  
 };

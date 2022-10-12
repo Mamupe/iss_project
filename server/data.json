@@ -4,8 +4,8 @@
       "id": 1,
       "issname": "Ronarid",
       "realname": "Ronaldo",
-      "isspicture": "public/pictures/Ronarid.jpg",
-      "realpicture": "public/pictures/Ronaldo.jpg"
+      "isspicture": "https://res.cloudinary.com/dghnwllrc/image/upload/v1665572563/Ronarid_jnta3n.jpg",
+      "realpicture": "https://res.cloudinary.com/dghnwllrc/image/upload/v1665572563/Ronaldo_t6st80.jpg"
 
     },
 
