@@ -1,3 +1,40 @@
-input{
-    position:center;
+.vs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  text-align: center;
+  top: 100px;
+}
+
+.issplayer {
+  display: flex;
+  float: left;
+  width: 325px;
+  height: 420px;
+  border-radius: 10px;
+  background: whitesmoke;
+  margin-left: 60px;
+}
+
+.realplayer {
+  display: flex;
+  float: right;
+  width: 325px;
+  height: 420px;
+  border-radius: 10px;
+  background: whitesmoke;
+  margin-right: 60px;
+}
+
+.realplayer > img {
+  width: 325px;
+  height: 420px;
+  border-radius: 10px;
+}
+.issplayer > img {
+  width: 325px;
+  height: 420px;
+  border-radius: 10px;
 }

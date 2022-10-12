@@ -1,6 +1,8 @@
 footer{
-    height: 5vh;
+    height: 3vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: antiquewhite;
+    background-color: #000337;
 }

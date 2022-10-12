@@ -1,14 +1,16 @@
 .jugador > img{
     object-fit: cover;
-    height: 200px;
-    width: 100px;
+    height: 175px;
+    width: 75px;
+    border-radius: 10px;
 }
 
 .galeria{
     display:flex;
     flex-direction: row;
+    flex-wrap: wrap;
     width: 100vw;
     align-items: flex-end;
     align-content: flex-end;
-    height: 80vh;
+    height: 30vh;
 }

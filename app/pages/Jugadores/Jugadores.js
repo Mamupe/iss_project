@@ -1,6 +1,7 @@
 import { getData } from "../../service/service";
 import { cleanPage } from "../../utils/cleanPage";
 import { JugadorGallery } from "../../components/Jugadorgallery/Jugadorgallery";
+import './Jugadores.css';
 
 let jugadorSelec;
 const getJugadores = async () => {
@@ -26,16 +27,17 @@ export const Jugadores = () => {
 cleanPage(app);
 app.innerHTML += `
 <section class="jugadores">
+<div class="vs">
+<input type="text">
+</div>
 
 <div class="issplayer">
 
 </div>
-<div class="vs">
-<input type="text">
-</div>
-<div class="realplayer">
 
+<div class="realplayer">
 </div>
+
 <div class="galeria"></div>
 
 </section>
@@ -43,7 +45,7 @@ app.innerHTML += `
 
     getJugadores();
 
-/* 
+
 const realplayerContainer = document.querySelector(".realplayer")
 const input = document.querySelector("input");
 const jugadoresFiltrados = (word) => {
@@ -58,7 +60,7 @@ const jugadoresFiltrados = (word) => {
     }
     return filterPlayer
 };
-input.addEventListener("input",(ev)=> jugadoresFiltrados(input.value)) */
+input.addEventListener("input",(ev)=> jugadoresFiltrados(input.value))
     
 const issplayerContainer = document.querySelector(".issplayer")
 const input1 = document.querySelector("input");

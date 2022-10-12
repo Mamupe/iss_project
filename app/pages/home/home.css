@@ -13,11 +13,11 @@
 
 img {
   /* position: relative; */
-
+  width: 448px;
   left: 506px;
   top: 32px;
-  width: 598px;
-  height: 350px;
+
+  height: 300px;
 }
 
 
@@ -40,6 +40,7 @@ button {
   display: none;
   
 }
-/* .off{
-  background-color: black;
-} */
+
+h1{
+  color:rgba(234, 235, 225, 0.877);
+}
