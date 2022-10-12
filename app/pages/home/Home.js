@@ -8,12 +8,14 @@ export const Home = () => {
     `
  
 
-    <div id="rc" class="home" >
+    <div id="rc" class="home off" >BIENVENIDO, SI ESTÁS AQUÍ ES QUE ERES UN PURETA
+    <div class="off" style="width:598px;  height:350px; background:black;">
     <img id="gif" src="public/pictures/gifpro.gif" alt="ini"/>
-     
+    </div>
+    <button class="boton">on/off</button>
     </div>
     
-    <button class="boton">on/off</button>
+   
     `;
  
 };

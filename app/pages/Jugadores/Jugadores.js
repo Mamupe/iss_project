@@ -2,9 +2,11 @@ import { getData } from "../../service/service";
 import { cleanPage } from "../../utils/cleanPage";
 import { JugadorGallery } from "../../components/Jugadorgallery/Jugadorgallery";
 
+let jugadorSelec;
 const getJugadores = async () => {
     const jugadores = await getData("issplayers");
    printJugadores(jugadores);
+   jugadorSelec = jugadores;
   };
 
 
@@ -41,4 +43,21 @@ app.innerHTML += `
 
     getJugadores();
 
+
+const realplayerContainer = document.querySelector(".realplayer")
+const input = document.querySelector("input");
+const jugadoresFiltrados = (word) => {
+    const filterPlayer = jugadorSelec.filter((player)=>{
+        return player.realname.toLowerCase().includes(word.toLowerCase())
+    });
+    cleanPage(realplayerContainer);
+    for (const player of filterPlayer) {
+        realplayerContainer.innerHTML += `
+        <img src="${player.realpicture}"/>
+        `
+    }
+    return filterPlayer
+};
+input.addEventListener("input",(ev)=> jugadoresFiltrados(input.value))
+    
 }

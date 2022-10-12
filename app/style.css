@@ -21,7 +21,7 @@ font-family: 'Silkscreen', cursive;
 
 
   #app{
-    background-image: url(public/pictures/gameroom_1.png);
+    background-image: url(https://res.cloudinary.com/dghnwllrc/image/upload/v1665586106/balon_cir08m.webp);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;

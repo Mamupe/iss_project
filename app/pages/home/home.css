@@ -1,41 +1,45 @@
 .home {
-    display: flex;
-    flex-direction: column;
-  
-    min-height: 90vh;
-  }
-  
-  .home > img {
-    width: 19vw;
-    position: relative;
-    left: 506px;
-    top: 32px;
-    width: 598px;
-    height: 350px;
-  }
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  font-family: Mina;
+  font-size: larger;
 
-
-
-  .home > div {
-    background-size: cover;
-    background-color: black;
-  }
-
-  button{
-   position: relative;
-   left: 770px;
-   top: -260px;
-   display: flex;
-   width: 3rem;
-   height: 24px;
-   justify-content: center;
-   font-family: 'Mina';
-   border-bottom: 2px;
-   background-color:crimson;
-   color:blanchedalmond;
-  }
-
-.disable{
-  display: none;
+  min-height: 90vh;
 }
 
+img {
+  /* position: relative; */
+
+  left: 506px;
+  top: 32px;
+  width: 598px;
+  height: 350px;
+}
+
+
+
+button {
+  
+  left: 770px;
+  top: -260px;
+  display: flex;
+  width: 3rem;
+  height: 24px;
+  justify-content: center;
+  font-family: "Mina";
+  border-bottom: 2px;
+  background-color: crimson;
+  color: blanchedalmond;
+}
+
+.disable {
+  display: none;
+  
+}
+/* .off{
+  background-color: black;
+} */
