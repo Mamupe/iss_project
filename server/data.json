@@ -13,72 +13,72 @@
       "id": 2,
       "issname": "Ziderm",
       "realname": "Zidane",
-      "isspicture": "public/pictures/ziderm.jpg",
-      "realpicture": "public/pictures/zidane.jpg"
+      "isspicture": "https://res.cloudinary.com/dghnwllrc/image/upload/v1665572564/ziderm_qr5aum.jpg",
+      "realpicture": "https://res.cloudinary.com/dghnwllrc/image/upload/v1665572563/zidane_ve6eu6.jpg"
     },
 
     {
       "id": 3,
       "issname": "Roberto Larcos",
       "realname": "Roberto Carlos",
-      "isspicture": "public/pictures/R_larcos.jpg",
-      "realpicture": "public/pictures/roberto carlos.jpg"
+      "isspicture": "https://res.cloudinary.com/dghnwllrc/image/upload/v1665572562/R_larcos_hdkrbc.jpg",
+      "realpicture": "https://res.cloudinary.com/dghnwllrc/image/upload/v1665572562/roberto_carlos_u8wacq.jpg"
     },
 
     {
       "id": 4,
       "issname": "Roal",
       "realname": "Raúl",
-      "isspicture": "public/pictures/Raul.jpg",
-      "realpicture": "public/pictures/Roal.jpg"
+      "isspicture": "https://res.cloudinary.com/dghnwllrc/image/upload/v1665572562/Roal_xxcsjg.jpg",
+      "realpicture": "https://res.cloudinary.com/dghnwllrc/image/upload/v1665572562/Raul_wbabzi.jpg"
     },
 
     {
       "id": 5,
       "issname": "Von Mestelroum",
       "realname": "Van Nistelroy",
-      "isspicture": "public/pictures/Von_mis.jpg",
-      "realpicture": "public/pictures/van_nis.jpg"
+      "isspicture": "https://res.cloudinary.com/dghnwllrc/image/upload/v1665572563/Von_mis_iasqdy.jpg",
+      "realpicture": "https://res.cloudinary.com/dghnwllrc/image/upload/v1665572563/van_nis_y4ainx.jpg"
     },
 
     {
       "id": 6,
       "issname": "Batustita",
       "realname": "Batistuta",
-      "isspicture": "public/pictures/Batustita.jpg",
-      "realpicture": "public/pictures/Batistuta.jpg"
+      "isspicture": "https://res.cloudinary.com/dghnwllrc/image/upload/v1665572564/Batustita_vohhct.jpg",
+      "realpicture": "https://res.cloudinary.com/dghnwllrc/image/upload/v1665572563/Batistuta_szkuuk.jpg"
     },
 
     {
         "id": 7,
         "issname": "Simeoni",
         "realname": "Simeone",
-        "isspicture": "public/pictures/simeoni.jpg",
-        "realpicture": "public/pictures/simeone.jpg"
+        "isspicture": "https://res.cloudinary.com/dghnwllrc/image/upload/v1665572563/simeoni_ulcpdg.jpg",
+        "realpicture": "https://res.cloudinary.com/dghnwllrc/image/upload/v1665572563/simeone_yif5sz.jpg"
       },
 
       {
         "id": 8,
         "issname": "Hierri",
         "realname": "Hierro",
-        "isspicture": "public/pictures/hierri.jpg",
-        "realpicture": "public/pictures/Hierro.jpg"
+        "isspicture": "https://res.cloudinary.com/dghnwllrc/image/upload/v1665572564/hierri_jrtmpe.jpg",
+        "realpicture": "https://res.cloudinary.com/dghnwllrc/image/upload/v1665572564/Hierro_zujjf4.jpg"
       },
 
       {
         "id": 9,
         "issname": "Malodini",
         "realname": "Maldini",
-        "isspicture": "public/pictures/Malodini.jpg",
-        "realpicture": "public/pictures/Maldini.jpg"
+        "isspicture": "https://res.cloudinary.com/dghnwllrc/image/upload/v1665572564/Malodini_jegs3i.jpg",
+        "realpicture": "https://res.cloudinary.com/dghnwllrc/image/upload/v1665572564/Maldini_emvqsb.jpg"
       },
 
       {
         "id": 10,
         "issname": "Naldoriño",
         "realname": "Ronaldinho",
-        "isspicture": "public/pictures/naldorinho.jpg",
-        "realpicture": "public/pictures/Ronaldinho.jpg"
+        "isspicture": "https://res.cloudinary.com/dghnwllrc/image/upload/v1665572562/naldorinho_b3jguk.jpg",
+        "realpicture": "https://res.cloudinary.com/dghnwllrc/image/upload/v1665572562/Ronaldinho_l5brsz.jpg"
       }
   ]
 }
