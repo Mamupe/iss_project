@@ -50,7 +50,7 @@ const realplayerContainer = document.querySelector(".realplayer")
 const input = document.querySelector("input");
 const jugadoresFiltrados = (word) => {
     const filterPlayer = jugadorSelec.filter((player)=>{
-        return player.realname.toLowerCase().includes(word.toLowerCase())
+        return player.realname.toLowerCase().includes(word.toLowerCase()) || player.issname.toLowerCase().includes(word.toLowerCase())
     });
     cleanPage(realplayerContainer);
     for (const player of filterPlayer) {
@@ -66,7 +66,7 @@ const issplayerContainer = document.querySelector(".issplayer")
 const input1 = document.querySelector("input");
 const jugadoresFiltrados1 = (word) => {
     const filterPlayer1 = jugadorSelec.filter((player1)=>{
-        return player1.issname.toLowerCase().includes(word.toLowerCase())
+        return player1.issname.toLowerCase().includes(word.toLowerCase()) || player1.realname.toLowerCase().includes(word.toLowerCase())
     });
     cleanPage(issplayerContainer);
     for (const player1 of filterPlayer1) {

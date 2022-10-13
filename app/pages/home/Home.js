@@ -11,7 +11,7 @@ export const Home = () => {
     <div id="rc" class="home off" >
    
     <div class="off" style="width:448px;  height:300px; background:black;">
-    <img id="gif" src="public/pictures/gifpro.gif" alt="ini"/>
+    <img id="gif" src="https://res.cloudinary.com/dghnwllrc/image/upload/v1665643109/gifpro_sjywax.gif" alt="ini"/>
     </div>
     <button class="boton">on/off</button>
     <br>
